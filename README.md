@@ -1,16 +1,9 @@
-# challenges
+# Flutter Challenges
 
-A new Flutter project.
+Playground to code UIs found on Dribble using Flutter
 
-## Getting Started
+1. [Fondle dog app](https://dribbble.com/shots/7615767-Fondle) - designer: [Sumit Choudhary](https://dribbble.com/sumit_choudhary)
 
-This project is a starting point for a Flutter application.
+[Code sample](https://github.com/adamontherun/Flutter-Challenges/tree/master/lib/fondle)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![dog app ui](https://github.com/adamontherun/Flutter-Challenges/blob/master/sampleimages/fondlehome.png "Dog app UI home")
