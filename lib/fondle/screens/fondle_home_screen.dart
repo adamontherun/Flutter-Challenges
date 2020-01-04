@@ -1,22 +1,17 @@
+import 'package:challenges/fondle/widgets/fondle_button.dart';
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatelessWidget {
+import 'package:challenges/fondle/helpers/gradients.dart';
+import '../widgets/fondle_home_container.dart';
+
+class FondleHomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
           decoration: BoxDecoration(
-              gradient: LinearGradient(
-                  begin: Alignment.bottomLeft,
-                  end: Alignment.topRight,
-                  stops: [
-                0.3,
-                1.0,
-              ],
-                  colors: [
-                Color.fromARGB(255, 210, 76, 74),
-                Color.fromARGB(255, 244, 129, 129),
-              ])),
+            gradient: fondleHomeGradient,
+          ),
           child: SafeArea(
             bottom: false,
             child: Container(
@@ -26,9 +21,7 @@ class HomeScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   Expanded(
-                    child: Container(
-                      width: 250,
-                      margin: EdgeInsets.only(left: 30),
+                    child: FondleHomeContainer(
                       child: Text(
                         'FONDLE',
                         style: Theme.of(context).textTheme.display4,
@@ -36,9 +29,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   Expanded(
-                    child: Container(
-                      width: 250,
-                      margin: EdgeInsets.only(left: 30),
+                    child: FondleHomeContainer(
                       child: Text(
                         'Happy home for a pet is a happy home for you',
                         textAlign: TextAlign.center,
@@ -46,17 +37,9 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Container(
-                    width: 250,
-                    margin: EdgeInsets.only(left: 30),
-                    child: MaterialButton(
-                      height: 46.0,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(22.0)),
-                      child: Text(
-                        'Sign in',
-                        style: Theme.of(context).textTheme.body1,
-                      ),
+                  FondleHomeContainer(
+                    child: FondleButton(
+                      title: 'Sign In',
                       color: Colors.white,
                       onPressed: () {},
                     ),
