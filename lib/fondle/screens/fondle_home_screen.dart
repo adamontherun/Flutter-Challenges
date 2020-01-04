@@ -15,7 +15,7 @@ class FondleHomeScreen extends StatelessWidget {
           child: SafeArea(
             bottom: false,
             child: Container(
-              padding: EdgeInsets.only(top: 90.0),
+              padding: const EdgeInsets.only(top: 90.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -41,11 +41,11 @@ class FondleHomeScreen extends StatelessWidget {
                     child: FondleButton(
                       title: 'Sign In',
                       color: Colors.white,
-                      onPressed: () {},
+                      onPressed: () {print('ok');},
                     ),
                   ),
                   Container(
-                    margin: EdgeInsets.only(
+                    margin: const EdgeInsets.only(
                       top: 35,
                     ),
                     child: Image.asset(

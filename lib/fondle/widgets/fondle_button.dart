@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class FondleButton extends StatelessWidget {
-  FondleButton({this.color, this.title, this.onPressed});
+  const FondleButton({this.color, this.title, this.onPressed});
 
   final Color color;
   final String title;
-  final Function onPressed;
+  final void Function() onPressed;
   @override
   Widget build(BuildContext context) {
     return MaterialButton(
