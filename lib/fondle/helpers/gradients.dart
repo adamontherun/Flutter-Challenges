@@ -14,11 +14,11 @@ const fondleHomeGradient = LinearGradient(
     ]);
 
     const fondleProfileGradient = LinearGradient(
-    begin: Alignment.topCenter,
-    end: Alignment.bottomCenter,
+    begin: Alignment.topRight,
+    end: Alignment.centerLeft,
     stops: [
-      0.3,
-      0.5,
+      0.1,
+      1,
     ],
     colors: [
       fondleLightGreen,

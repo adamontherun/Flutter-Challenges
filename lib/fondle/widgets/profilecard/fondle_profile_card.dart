@@ -1,4 +1,5 @@
 import 'package:challenges/fondle/helpers/shadows.dart';
+import 'package:challenges/fondle/widgets/profilecard/profile_card_header.dart';
 import 'package:flutter/material.dart';
 
 class FondleProfileCard extends StatelessWidget {
@@ -18,6 +19,15 @@ class FondleProfileCard extends StatelessWidget {
       ),
       width: screenWidth,
       height: screenWidth,
+      child: Column(
+        children: <Widget>[
+          Container(
+            child: ProfileCardHeader(),
+            margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+          ),
+          const Divider()
+        ],
+      ),
     );
   }
 }
