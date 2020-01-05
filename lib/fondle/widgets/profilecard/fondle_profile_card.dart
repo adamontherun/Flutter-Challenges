@@ -1,5 +1,6 @@
+import 'package:challenges/fondle/helpers/colors.dart';
 import 'package:challenges/fondle/helpers/shadows.dart';
-import 'package:challenges/fondle/widgets/profilecard/profile_card_header.dart';
+import 'package:challenges/fondle/widgets/profilecard/fondle_profile_card_header.dart';
 import 'package:flutter/material.dart';
 
 class FondleProfileCard extends StatelessWidget {
@@ -25,7 +26,7 @@ class FondleProfileCard extends StatelessWidget {
             child: ProfileCardHeader(),
             margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
           ),
-          const Divider()
+          const Divider(color: fondleGray,)
         ],
       ),
     );
