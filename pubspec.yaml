@@ -25,3 +25,7 @@ flutter:
     - family: Alte DIN 1451 Mittelschrift Regular
       fonts:
         - asset: assets/fonts/din.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf

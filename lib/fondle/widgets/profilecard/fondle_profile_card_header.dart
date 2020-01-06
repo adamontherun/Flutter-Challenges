@@ -27,7 +27,7 @@ class ProfileCardHeader extends StatelessWidget {
             children: <Widget>[
               Text(
                 '2 YEAR OLD',
-                style: Theme.of(context).textTheme.display2,
+                style: Theme.of(context).textTheme.display1,
               ),
               Text(
                 'male',

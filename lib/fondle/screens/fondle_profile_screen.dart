@@ -15,7 +15,7 @@ class FondleProfileScreen extends StatelessWidget {
           alignment: AlignmentDirectional.bottomCenter,
           children: <Widget>[
             Positioned(
-              bottom: 90,
+              bottom: 120,
               right: 18,
               child: Image.asset(
                 'assets/images/dalmation.png',

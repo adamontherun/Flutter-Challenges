@@ -1,4 +1,4 @@
-import 'package:challenges/fondle/widgets/fondle_button.dart';
+import 'package:challenges/fondle/widgets/fondle_buttons.dart';
 import 'package:flutter/material.dart';
 
 import 'package:challenges/fondle/helpers/gradients.dart';
@@ -38,9 +38,7 @@ class FondleHomeScreen extends StatelessWidget {
                     ),
                   ),
                   FondleHomeContainer(
-                    child: FondleButton(
-                      title: 'Sign In',
-                      color: Colors.white,
+                    child: LoginButton(
                       onPressed: () {print('ok');},
                     ),
                   ),
