@@ -6,4 +6,5 @@ Playground to code UIs found on Dribble using Flutter
 
 [Code sample](https://github.com/adamontherun/Flutter-Challenges/tree/master/lib/fondle)
 
-![dog app ui](https://github.com/adamontherun/Flutter-Challenges/blob/master/sampleimages/fondlehome.png "Dog app UI home")
+![dog app home ui](https://github.com/adamontherun/Flutter-Challenges/blob/master/sampleimages/fondlehome.png "Dog app UI home")
+![dog app profile ui](https://github.com/adamontherun/Flutter-Challenges/blob/master/sampleimages/fondleprofile.png "Dog app UI profile")
