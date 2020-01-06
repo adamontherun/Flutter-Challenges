@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           fontFamily: 'Alte DIN 1451 Mittelschrift Regular',
           textTheme: fondleTextTheme),
-      home: FondleProfileScreen(),
+      home: FondleHomeScreen(),
     );
   }
 }

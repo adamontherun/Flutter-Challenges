@@ -1,33 +1,34 @@
+import 'package:challenges/fondle/helpers/colors.dart';
 import 'package:flutter/material.dart';
 
 const _display1TextStyle =
-    TextStyle(fontSize: 18, color: Color.fromARGB(255, 56, 99, 99));
+    TextStyle(fontSize: 18, color: fondleTeal);
 
 const _display2TextStyle =
-    TextStyle(fontSize: 20, color: Color.fromARGB(255, 56, 99, 99));
+    TextStyle(fontSize: 20, color: fondleTeal);
 
 const _display3TextStyle = TextStyle(
     fontWeight: FontWeight.bold,
     fontSize: 30,
-    color: Color.fromARGB(255, 56, 99, 99));
+    color: fondleTeal);
 
 const _display4TextStyle = TextStyle(
     fontWeight: FontWeight.bold,
     fontSize: 69,
-    color: Color.fromARGB(255, 216, 216, 216));
+    color: fondleHeaderGray);
 
 const _body1TextStyle = TextStyle(
     fontFamily: 'Poppins',
     fontWeight: FontWeight.bold,
     fontSize: 12,
     height: 1.7,
-    color: Color.fromARGB(204, 74, 74, 74));
+    color: fondleTextMediumGray);
 
 const _body2TextStyle = TextStyle(
     fontWeight: FontWeight.bold,
     fontSize: 21,
     height: 1.5,
-    color: Color.fromARGB(178, 216, 216, 216));
+    color: fondleSubHeadGray);
 
 const _buttonTextStyle =
     TextStyle(fontWeight: FontWeight.bold, fontSize: 17, color: Colors.black87);
@@ -46,23 +47,23 @@ class CustomTextStyle {
   static TextStyle body3(BuildContext context) {
     return Theme.of(context).textTheme.body1.copyWith(
           fontSize: 16.0,
-          color: const Color.fromARGB(255, 74, 74, 74),
+          color: fondleTextGray,
           fontWeight: FontWeight.bold,
         );
   }
 
-    static TextStyle body4(BuildContext context) {
+  static TextStyle body4(BuildContext context) {
     return Theme.of(context).textTheme.body1.copyWith(
           fontSize: 14.0,
-          color: const Color.fromARGB(178, 74, 74, 74),
+          color: fondleTextLightGray,
         );
   }
 
-      static TextStyle body5(BuildContext context) {
+  static TextStyle body5(BuildContext context) {
     return Theme.of(context).textTheme.body1.copyWith(
           fontSize: 14.0,
           fontWeight: FontWeight.w600,
-          color: const Color.fromARGB(178, 74, 74, 74),
+          color: fondleTextLightGray,
         );
   }
 }
